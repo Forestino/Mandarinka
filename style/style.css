@@ -1,6 +1,9 @@
 :root{
+    --font-color: #ffd5b7;
     --progress_bar-color: #ff8b1f;
     --progress_bar-bgcolor:#bf6524;
+    --bgcolor:#25223a;
+    --color-card:#352f5a;
 }
 *{
     margin: 0;
@@ -10,5 +13,37 @@ body{
     background-color: #25223a;
     font-family: "Kanit", sans-serif;
     font-weight: 500;
-    color: #ffd5b7;
+    color: var(--font-color);
+}
+.main{
+    border: 1px solid tomato;
+}
+.score,.image,.progress-container,.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 50px;
+}
+.mandarin-exp{
+    margin-right: 20px;
+}
+.score-text{
+    font-weight: 700;
+    font-size: 3.5em;
+}
+.progress_bar{
+    width: 70%;
+    height: 10px;
+    background-color: var(--progress_bar-color);
+    border-radius: 15px;
+}
+.card1,.card2,.card3,.card4,.card5{
+    width: 70px;
+    height: 100px;
+    background-color: var(--color-card);
+    border-radius: 20px;
+}
+.card1,.card2,.card3,.card4{
+    margin-right: 15px;
 }
