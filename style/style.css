@@ -61,6 +61,24 @@ body{
 
 }
 .image img:active{
-    transform: scale(1.1);
+    transform: scale(0.9);
     transition-duration: 250ms;
+}
+.increment {
+    position: absolute;
+    color: #ff8b1f;
+    font-weight: 700;
+    font-size: 2em;
+    animation: fadeOut 1s forwards;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
 }
