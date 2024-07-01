@@ -1,0 +1,14 @@
+:root{
+    --progress_bar-color: #ff8b1f;
+    --progress_bar-bgcolor:#bf6524;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #25223a;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    color: #ffd5b7;
+}
