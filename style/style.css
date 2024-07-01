@@ -16,6 +16,7 @@ body{
     color: var(--font-color);
 }
 .main{
+    padding-top: 40px;
     border: 1px solid tomato;
 }
 .score,.image,.progress-container,.menu{
@@ -24,6 +25,9 @@ body{
     align-items: center;
 
     margin-bottom: 50px;
+}
+.progress-container{
+    margin-top: 70px;
 }
 .mandarin-exp{
     margin-right: 20px;
@@ -39,11 +43,11 @@ body{
     border-radius: 15px;
 }
 .card1,.card2,.card3,.card4,.card5{
-    width: 70px;
+    width: 90px;
     height: 100px;
     background-color: var(--color-card);
     border-radius: 20px;
 }
 .card1,.card2,.card3,.card4{
-    margin-right: 15px;
+    margin-right: 10px;
 }
