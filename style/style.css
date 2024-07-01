@@ -17,6 +17,8 @@ body{
 }
 .main{
     padding-top: 40px;
+    padding-bottom: 20px;
+
     margin-right: 15px;
     margin-left: 15px;
     border: 1px solid tomato;
@@ -32,7 +34,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
 }
 .progress-container{
     margin-top: 70px;
