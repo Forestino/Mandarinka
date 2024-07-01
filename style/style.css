@@ -21,12 +21,18 @@ body{
     margin-left: 15px;
     border: 1px solid tomato;
 }
-.score,.image,.progress-container,.menu{
+.score,.image,.progress-container{
     display: flex;
     justify-content: center;
     align-items: center;
 
     margin-bottom: 50px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
 }
 .progress-container{
     margin-top: 70px;
@@ -44,6 +50,7 @@ body{
     height: 15px;
     background-color: var(--progress_bar-color);
     border-radius: 15px;
+    transition: width 0,5s ease, background-color 0.5s ease;
 }
 .card1,.card2,.card3,.card4,.card5{
     width: 90px;
@@ -66,10 +73,11 @@ body{
 }
 .increment {
     position: absolute;
-    color: #ff8b1f;
+    color: var(--font-color);
     font-weight: 700;
     font-size: 2em;
     animation: fadeOut 1s forwards;
+    pointer-events: none;
 }
 
 @keyframes fadeOut {
